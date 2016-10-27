@@ -9,7 +9,21 @@
 
 <div id="app" class="wrapper">
 
-    @yield('content')
+    @include('partials.mainheader')
+
+    @include('partials.sidebar')
+
+    <div class="content-wrappep">
+
+        @include('partials.contentheader')
+
+        <section class="content">
+            @yield('content')
+        </section>
+
+        @include('partials.contentsidebar')
+
+    </div>
 
     @include('partials.footer')
 
