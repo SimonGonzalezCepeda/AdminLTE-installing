@@ -7,11 +7,11 @@
 
         <title>Adminlte Tinkering</title>
 
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/all.css">
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
     <!-- Site wrapper -->
-    <div class="wrapper">
+    <div id="app" class="wrapper">
 
         <header class="main-header">
             <!-- Logo -->

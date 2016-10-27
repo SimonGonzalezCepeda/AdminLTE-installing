@@ -19,6 +19,8 @@
     "admin-lte": "^2.3.7",
     "bootstrap-less": "^3.3.8",
     "font-awesome": "^4.6.3",
-    "ionicons": "^3.0.0"
+    "icheck": "^1.0.2",
+    "ionicons": "^3.0.0",
+    "toastr": "^2.1.2"
   }
 }

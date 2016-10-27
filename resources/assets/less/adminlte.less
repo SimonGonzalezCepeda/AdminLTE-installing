@@ -1,7 +1,13 @@
-// ADMINLTE
+@import "node_modules/bootstrap-less/bootstrap/bootstrap.less";
+@import "node_modules/admin-lte/build/less/variables.less";
 
-@import "node_modules/admin-lte/build/less/AdminLTE";
+@btn-font-weight: 300;
+@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
 
-// BOOTSTRAP
+body, label, .checkbox label {
+  font-weight: 300;
+}
 
-@import "node_modules/bootstrap-less/bootstrap/mixins";
+.error-page {
+  background-color: @body-bg;
+}
