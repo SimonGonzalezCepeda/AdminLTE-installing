@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/nerd', function (){
+    return view('layout/app');
+});
