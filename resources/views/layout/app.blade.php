@@ -7,11 +7,11 @@
 
 <body class="hold-transition skin-blue sidebar-mini">
 
+@include('partials.mainheader')
+
+@include('partials.sidebar')
+
 <div id="app" class="wrapper">
-
-    @include('partials.mainheader')
-
-    @include('partials.sidebar')
 
     <div class="content-wrappep">
 
@@ -27,7 +27,10 @@
 
     @include('partials.footer')
 
+    <div class="control-sidebar-bg"></div>
+
 </div>
+
 
 @section('scripts')
     @include('partials.scripts')
